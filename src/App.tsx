@@ -1,14 +1,22 @@
+/**
 import { Counter } from "./components/Counter"
 import { Counterreducer } from "./components/Counterreducer"
 import { FatherTimer } from "./components/FatherTimer"
 import { Form } from "./components/Form"
 import { User } from "./components/User"
+ */
+
+import { Todos } from "./todo/Todos"
+
+
+
 
 function App() {
 
   return (
     <div>
-      <h1>React + Typescript</h1>
+      {/**
+        <h1>React + Typescript</h1>
       <hr />
       <Counter />
       <hr />
@@ -23,6 +31,8 @@ function App() {
       <Form />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+       */}
+    <Todos/>
     </div>
   )
 }
